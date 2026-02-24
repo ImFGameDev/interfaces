@@ -1,6 +1,4 @@
 cmake_minimum_required(VERSION 3.30)
-project(interfaces)
+project(interfaces_ex)
 
-target_include_directories(${PROJECT_NAME}
-        PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
-)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
